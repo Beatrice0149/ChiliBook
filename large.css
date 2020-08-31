@@ -1,0 +1,84 @@
+:root {
+
+    --color-black: #000000;
+    --color-primary: #133417;
+    --color-secondary: #136F17;
+    --color-tertiary: #38C122;
+    --color-small-info: #4B4B4B;
+    --color-line: #828282;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.logo img {
+    position: relative;
+    width: 335px;
+    height: 335px;
+    margin: 0 auto;
+
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons-register {
+    position: relative;
+    display: flex;
+}
+
+#buttons-register .login {
+    width: 15rem;
+    height: 3.5rem;
+
+    background: white;
+    color: var(--color-primary);
+    border: thin solid var(--color-primary);
+    border-color: var(--color-primary);
+    border-radius: 0.4rem;
+
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 9rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+#buttons-register .register {
+    width: 15rem;
+    height: 3.5rem;
+
+    background: var(--color-primary);
+    color: white;
+    border: 0;
+    border-radius: 0.4rem;
+    
+    
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    
+    cursor: pointer;
+    text-decoration: none;
+   
+    margin-top: 9rem;
+    margin-left: 2rem;
+    margin-right: auto;
+    
+}
