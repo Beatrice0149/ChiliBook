@@ -1,0 +1,47 @@
+:root {
+    --color-primary: #133417;
+    --color-small-info: #4B4B4B;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    height: 445px;
+}
+
+#button-register {
+    position: relative;
+    display: flex;
+}
+
+#button-register a {
+    width: 19rem;
+    height: 3rem;
+
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    background: var(--color-primary);
+    color: white;
+    border: 0;
+    border-radius: 4rem;
+    
+    margin-top: 7.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}

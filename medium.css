@@ -33,51 +33,46 @@ body {
     margin-right: auto;
 }
 
-#buttons-register {
+#buttons-container {
     position: relative;
     display: flex;
 }
 
-#buttons-register .login {
+#buttons-container a {
     width: 40rem;
     height: 5rem;
 
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.4rem;
+
+    cursor: pointer;
+    text-decoration: none;
+
+    margin-top: 13rem;
+}
+
+#buttons-container a.login {
     background: white;
     color: var(--color-primary);
     border: thin solid var(--color-primary);
     border-color: var(--color-primary);
-    border-radius: 0.4rem;
 
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bolder;
-    
-    cursor: pointer;
-    text-decoration: none;
-
-    margin-top: 13rem;
     margin-left: auto;
     margin-right: 0.5rem;
 }
 
-#buttons-register .register {
-    width: 40rem;
-    height: 5rem;
-
+#buttons-container a.register {
     background: var(--color-primary);
     color: white;
     border: 0;
-    border-radius: 0.4rem;
-    
-    
-    text-align: center;
-    font-size: 1rem;
-    font-weight: bolder;
-    
-    cursor: pointer;
-    text-decoration: none;
-   
-    margin-top: 13rem;
+ 
     margin-left: 0.5rem;
     margin-right: auto;
     
