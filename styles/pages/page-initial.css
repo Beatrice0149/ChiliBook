@@ -1,11 +1,5 @@
 :root {
-
-    --color-black: #000000;
     --color-primary: #133417;
-    --color-secondary: #136F17;
-    --color-tertiary: #38C122;
-    --color-small-info: #4B4B4B;
-    --color-line: #828282;
 }
 
 *{
@@ -16,34 +10,34 @@
 html, 
 body {
     position: relative;
-    width: 550px;
+    width: 350px;
     margin: 0 auto;
-    height: 1000px;
+    height: 445px;
 }
 
 .logo img {
     position: relative;
-    width: 370px;
-    height: 370px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
 
     display: block;
-    margin-top: 60%;
+    margin-top: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #buttons-container {
     position: relative;
-    display: flex;
+    display: flex; 
 }
 
 #buttons-container a {
-    width: 40rem;
-    height: 5rem;
+    width: 10rem;
+    height: 2.7rem;
 
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bolder;
 
     display: flex;
@@ -55,7 +49,7 @@ body {
     cursor: pointer;
     text-decoration: none;
 
-    margin-top: 13rem;
+    margin-top: 7.5rem;
 }
 
 #buttons-container a.login {
@@ -63,7 +57,9 @@ body {
     color: var(--color-primary);
     border: thin solid var(--color-primary);
     border-color: var(--color-primary);
+    
 
+    margin-top: 7.5rem;
     margin-left: auto;
     margin-right: 0.5rem;
 }
@@ -72,8 +68,8 @@ body {
     background: var(--color-primary);
     color: white;
     border: 0;
- 
+   
+    margin-top: 7.5rem;
     margin-left: 0.5rem;
     margin-right: auto;
-    
 }

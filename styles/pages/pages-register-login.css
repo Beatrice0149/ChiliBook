@@ -16,12 +16,36 @@ body {
     height: 445px;
 }
 
-#button-register {
-    position: relative;
-    display: flex;
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 6rem;
 }
 
-#button-register a {
+.dados-user input{
+    position: relative;
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17rem;
+    height: 1.5rem;
+
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-width: thin;
+    border-bottom-color: black;
+    border-left-style: none;
+
+    font-size: 1rem;
+}
+
+.button-register {
+    position: relative;
+}
+
+.button-register a {
     width: 19rem;
     height: 3rem;
 
@@ -41,7 +65,7 @@ body {
     border: 0;
     border-radius: 4rem;
     
-    margin-top: 7.5rem;
+    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
 }

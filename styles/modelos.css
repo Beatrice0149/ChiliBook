@@ -1,0 +1,22 @@
+:root {
+
+    --color-black: #000000;
+    --color-primary: #133417;
+    --color-secondary: #136F17;
+    --color-tertiary: #38C122;
+    --color-small-info: #4B4B4B;
+    --color-line: #828282;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    height: 445px;
+}
