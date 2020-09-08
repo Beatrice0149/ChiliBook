@@ -1,0 +1,74 @@
+:root {
+
+    --color-black: #000000;
+    --color-primary: #133417;
+    --color-secondary: #136F17;
+    --color-tertiary: #38C122;
+    --color-small-info: #4B4B4B;
+    --color-line: #828282;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    position: relative;
+    width: 360px;
+    height: 50px;
+}
+
+#menu {
+    position: absolute;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21rem;
+    height: 5rem;
+    border-top: thin  solid  rgba(192, 191, 191, 0.233);
+}
+
+#menu .home {
+    width: 6rem;
+    height: 4.5rem;
+}
+
+#menu .home img {
+    width: 2.5rem;
+    height: 2rem;
+    display: block;
+    margin-top: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#menu .post {
+    width: 8.9rem;
+    height: 4.5rem;
+}
+
+#menu .post img {
+    width: 7rem;
+    height: 3rem;
+    display: block;
+    margin-top: 0.9rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu .chat {
+    width: 6rem;
+    height: 4.5rem;
+}
+
+#menu .chat img {
+    width: 2.5rem;
+    height: 2rem;
+    display: block;
+    margin-top: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}

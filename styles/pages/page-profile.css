@@ -119,3 +119,7 @@ body {
     border: thin solid var(--color-tertiary);
     border-radius: 4rem;
 }
+
+#menu-footer {
+    padding-bottom: 0px;
+}

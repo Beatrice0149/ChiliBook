@@ -1,0 +1,43 @@
+:root {
+
+    --color-black: #000000;
+    --color-primary: #133417;
+    --color-secondary: #136F17;
+    --color-tertiary: #38C122;
+    --color-small-info: #4B4B4B;
+    --color-line: #828282;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, 
+body {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    height: 445px;
+}
+
+#area-top {
+    width: 20rem;
+    height: 10rem;
+    display: flex;
+    border-bottom: thin  solid  rgba(192, 191, 191, 0.233);
+}
+
+#area-top .logo img {
+    width: 7.5rem;
+    margin-left: 1rem;
+}
+
+#area-top .options-menu-top {
+    margin-left: 4.5rem;
+}
+
+#area-top .options-menu-top img{
+    width: 3rem;
+    margin-top: 2.5rem;
+}
